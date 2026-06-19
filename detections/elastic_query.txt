@@ -1,0 +1,21 @@
+# Process Execution
+
+process.parent.name:"WindowsUpdateHelper.exe"
+and process.name:"cmd.exe"
+
+# Console Host
+
+process.parent.name:"cmd.exe"
+and process.name:"conhost.exe"
+
+# Telegram DNS
+
+dns.question.name:"api.telegram.org"
+
+# Telegram TLS
+
+tls.server.name:"api.telegram.org"
+
+# Telegram IP
+
+destination.ip:"149.154.166.110"
