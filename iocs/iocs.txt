@@ -1,0 +1,19 @@
+# Telegram RAT Investigation IOC List
+
+# Domains
+api.telegram.org
+
+# IP Addresses
+149.154.166.110
+
+# Processes
+WindowsUpdateHelper.exe
+cmd.exe
+conhost.exe
+
+# Protocols
+TLSv1.3
+HTTPS
+
+# Network Ports
+443
